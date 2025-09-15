@@ -27,7 +27,7 @@ export default function Auth() {
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/`,
+          emailRedirectTo: "https://zen-grow.vercel.app", 
           data: {
             full_name: fullName,
             username: username,
